@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+	</body>
+	<script type="text/javascript">
+		//把arr当做队列对待，那么 队列头部元素就是 "张三", 队尾元素就是 "王五"
+		  var arr = ["张三", "李四", "王五"];
+		  var firstItem = arr.shift();  //把队首元素从队列中移除，并返回移除的这个元素
+		  //alert(firstItem);	//张三
+		  //alert(arr);  // 李四, 王五
+		  var len = arr.unshift("志玲");	//向队列头部添加元素，并返回添加成功后队列(数组)的长度
+		  alert("数组长度：" + len);  // 数组长度：3
+		  alert(arr);  // 志玲, 李四, 王五
+		  arr.unshift("a", "b");
+		  alert(arr);  // a, b, 志玲, 李四, 王五
+	</script>
+</html>

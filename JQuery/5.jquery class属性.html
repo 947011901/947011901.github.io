@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<title>Document</title>
+		<script type="text/javascript" src="../2018-08-06/jquery-3.3.1.js"></script>
+		<style>
+			.bg {
+				background: #F00;
+			}
+			
+			.color {
+				color: #FFF;
+			}
+			
+			.size {
+				font-size: 30px;
+			}
+		</style>
+	</head>
+
+	<body>
+		<a href="javascript:void(0)" class="size">添加样式</a>
+		<button>添加样式</button>
+		<button>移除样式</button>
+		<button>切换样式</button>
+		<button>显示隐藏</button>
+		<script type="text/javascript">
+			$('button:eq(0)').click(function() {
+				$('a').addClass('bg');
+			});
+			$('button:eq(1)').click(function() {
+				$('a').removeClass('size');
+			});
+			$('button:eq(2)').click(function() {
+				$('a').toggleClass('color');
+			});
+		</script>
+	</body>
+
+</html>
