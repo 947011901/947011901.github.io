@@ -16,7 +16,7 @@
 [4.奇偶选择器](https://947011901.github.io/JQuery/4.奇数偶数选择器.html)<br />
 [5.其他选择器](https://947011901.github.io/JQuery/4-其他选择器.html)<br />
 [6.兄弟选择器](https://947011901.github.io/JQuery/6.jquery兄弟选择器.html)<br />
-[7.class属性](https://947011901.github.io/JQuery/5.class属性.html)<br />
+[7.jquery class属性](https://947011901.github.io/JQuery/5.class属性.html)<br />
 [8.jquery获取元素的位置](https://947011901.github.io/JQuery/6-jquery获取元素的位置.html)<br />
 [9.jquery滚动条](https://947011901.github.io/JQuery/7-jquery滚动条.html)<br />
 [10.放大镜效果](https://947011901.github.io/JQuery/8.放大镜效果.html)<br />
