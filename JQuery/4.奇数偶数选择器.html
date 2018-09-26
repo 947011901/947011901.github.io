@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script type="text/javascript" src="jquery-3.3.1.js"></script>
+	</head>
+	<body>
+		<h5>列表一</h5>
+		<ul>
+			<li>新闻链接1</li>
+			<li>新闻链接2</li>
+			<li>新闻链接3</li>
+			<li>新闻链接4</li>
+			<li>新闻链接5</li>
+			<li>新闻链接6</li>
+			<li>新闻链接7</li>
+			<li>新闻链接8</li>
+			<li>新闻链接9</li>
+		</ul>
+		<h5>列表二</h5>
+		<ul>
+			<li>新闻链接21</li>
+			<li>新闻链接22</li>
+			<li>新闻链接23</li>
+			<li>新闻链接24</li>
+			<li>新闻链接25</li>
+			<li>新闻链接26</li>
+			<li>新闻链接27</li>
+			<li>新闻链接28</li>
+			<li>新闻链接29</li>
+		</ul>
+		<script type="text/javascript">
+			$(function(){
+				//：first-child选中第一个匹配元素
+				$('ul li:first-child').css("backgroundColor",'#cca');
+				//：last-child选中最后一个元素
+				$('ul li:last-child').css("backgroundColor",'#ccc');
+				//：nth-child(3)选中第三个元素  等于
+				$('ul li:nth-child(3)').css("backgroundColor",'#ddd');
+				//：first
+				$('ul li:first').css("width",'200px');
+				//：last
+				$('ul li:last').css("width",'500px');
+				//：eq(3)等于
+				$('ul li:eq(3)').css("color",'yellow');
+				//：gt(3)大于
+				$('ul li:gt(3)').css("color",'blue');
+				//：lt(6)小于
+				$('ul li:gt(6)').css("color",'red');
+				//：odd奇数
+				$('ul li:odd').css("color",'greenyellow');
+				//：even偶数
+				$('ul li:even').css("color",'orangered');
+			})
+		</script>
+	</body>
+</html>

@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script type="text/javascript" src='js/jquery.js'></script>
+</head>
+<body>
+	<script type="text/javascript">
+	$(function(){
+		//$('<table/>',{标签属性:属性的值}); 创建一个标签
+		var table=$('<table/>',{
+			border:1,
+			rules:'all',
+			cellpadding:10
+		}).appendTo('body');
+
+		var thead=$('<thead/>').appendTo(table);
+		var tbody=$('<tbody/>').appendTo(table);
+		var tr=$('<tr/>').appendTo(thead);
+
+		for(var i =1;i<=10;i++){
+			$('<th/>').html('表头'+i).appendTo(tr);
+			var bodytr=$('<tr/>').appendTo(tbody);
+				for(var j=0;j<10;j++){
+					$('<td/>').html('i'+i+'j'+j).appendTo(bodytr);
+				}
+		}
+		
+	});
+	</script>
+</body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script type="text/javascript" src="jquery-3.3.1.js"></script>
+		<style type="text/css">
+			div {
+				width: 500px;
+				height: 300px;
+				background-color: blue;
+				display: none;
+			}
+		</style>
+	</head>
+
+	<body>
+		<button>显示</button>
+		<button>隐藏</button>
+		<button>显示到半透明</button>
+		<button>显示/隐藏</button>
+		<div></div>
+		<script type="text/javascript">
+			$(function() {
+				$('button:first').click(function() {
+					//fadeIn通过变化透明度显示
+					$('div').fadeIn(5000, 'linear', function() {
+						//alert('显示完成');
+					});
+				});
+				$('button:eq(1)').click(function() {
+					//fadeOut(); 通过变化透明度 隐藏
+					$('div').fadeOut(5000);
+				});
+				$('button:eq(2)').click(function() {
+					//fadeTo(); 通过变化到指定透明度 
+					$('div').fadeTo(1000, 0.5);
+				});
+				$('button:eq(3)').click(function() {
+					//fadeToggle(); 通过透明度切换显示 隐藏
+					$('div').fadeToggle();
+				});
+			});
+		</script>
+	</body>
+
+</html>

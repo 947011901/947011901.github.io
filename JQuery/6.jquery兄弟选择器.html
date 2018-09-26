@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script type="text/javascript" src="jquery-3.3.1.js"></script>
+</head>
+<body>
+	<ul>
+		<li>111</li>
+		<li>222</li>
+		<li>333</li>
+		<li>444</li>
+		<li>555</li>
+		<li>666</li>
+	</ul>
+	<script type="text/javascript">
+	$(function(){
+		$('ul li:eq(1)').css("color",'#F00');
+		$('ul li:eq(1)+li').css('color','blue');
+		$('ul li:eq(1)~li').css('fontSize','30px');	
+	});
+	</script>
+</body>
+</html>
