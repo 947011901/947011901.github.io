@@ -1,6 +1,6 @@
 ###Welcome to use MarkDown
 [百度](http://wwww.baidu.com)<br />
-[JQuery]
+JQuery<br />
 [1.动画队列](https://947011901.github.io/JQuery/1.动画队列.html)<br />
 [2.jquery插件演示](https://947011901.github.io/JQuery/2.jquery插件演示.html)<br />
 [3.邮箱认证](https://947011901.github.io/JQuery/3.邮箱认证.html)<br />
