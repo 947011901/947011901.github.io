@@ -2,8 +2,8 @@
 [百度](http://wwww.baidu.com)<br />
 [JQuery]<br />
 [1.动画队列](https://947011901.github.io/JQuery/1.动画队列.html)<br />
-[2.jquery插件演示](https://947011901.github.io/JQuery/2.jquery插件演示.html)<br />
-[3.邮箱认证](https://947011901.github.io/JQuery/3.邮箱认证.html)<br />
+[2.邮箱认证](https://947011901.github.io/JQuery/2.邮箱认证.html)<br />
+[3.基础选择器](https://947011901.github.io/JQuery/3-基础选择器.html)<br />
 [4.其他选择器](https://947011901.github.io/JQuery/4-其他选择器.html)<br />
 [5.class属性](https://947011901.github.io/JQuery/5.class属性.html)<br />
 [6.jquery获取元素的位置](https://947011901.github.io/JQuery/6-jquery获取元素的位置.html)<br />

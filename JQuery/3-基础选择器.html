@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>选择器</title>
+		<script src="jquery-3.3.1.js" type="text/javascript"></script>
+	</head>
+	<body>
+		<div>
+			<p id="first">段落1</p>
+			<p class="two">段落2</p>
+			<header>
+				<p>段落3</p>
+				<p>段落4</p>				
+			</header>
+			<p>外面的段落1</p>
+			<p>外面的段落2</p>
+			<p>外面的段落3</p>
+		</div>
+		<script type="text/javascript">
+			$(function(){
+				//$("*")jquery的选择器
+				//css();jquery的函数设置匹配元素的内联样式[内嵌]
+				//backgroundColor设置背景blue蓝色
+				//通用选择器
+				$("*").css("backgroundColor","blue");
+				//类选择器
+				$(".two").css("backgroundColor","reg");
+				//id选择器
+				$("#first").css("backgroundColor","green");
+				//元素选择器  标签选择器
+				$("p").css("fontSize","26px");
+				//后代选择器
+				$("div p").css("color","#FFF");
+				//子代选择器
+				$("div>p").css("color","#000");
+			});
+		</script>
+	</body>
+</html>
