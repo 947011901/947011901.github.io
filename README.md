@@ -22,7 +22,7 @@
 [10.放大镜效果](https://947011901.github.io/JQuery/8.放大镜效果.html)<br />
 [11.轮播图](https://947011901.github.io/JQuery/9.轮播图.html)<br />
 [12.作业1](https://947011901.github.io/JQuery/作业demo.html)<br />
-[13.jquery fade动画](https://947011901.github.io/JQuery/8.jquery fade动画.html)<br />
+[13.jquery fade动画](https://947011901.github.io/JQuery/8.fade动画.html)<br />
 [14.垃圾桶效果](https://947011901.github.io/JQuery/垃圾桶效果.html)<br />
 [15.柱状图](https://947011901.github.io/JQuery/1.柱状图.html)<br />
 [16.手风琴折叠效果](https://947011901.github.io/JQuery/4.手风琴折叠效果.html)<br />
