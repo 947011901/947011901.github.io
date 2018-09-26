@@ -12,11 +12,11 @@
 [2.表单](https://947011901.github.io/bootstrap/4.表单.html)<br />
 [3.响应式导航条](https://947011901.github.io/bootstrap/3.响应式导航.html)<br />
 [4.栅格式布局](https://947011901.github.io/bootstrap/1.栅格式布局.html)<br />
-[4.组件](https://947011901.github.io/bootstrap/7.组件.html)<br />
-[4.导航](https://947011901.github.io/bootstrap/8.导航.html)<br />
-[4.分页](https://947011901.github.io/bootstrap/5.分页.html)<br />
-[4.列表组](https://947011901.github.io/bootstrap/7.列表组.html)<br />
-[4.模态框](https://947011901.github.io/bootstrap/11.模态框.html)<br />
+[5.组件](https://947011901.github.io/bootstrap/7.组件.html)<br />
+[6.导航](https://947011901.github.io/bootstrap/8.导航.html)<br />
+[7.分页](https://947011901.github.io/bootstrap/5.分页.html)<br />
+[8.列表组](https://947011901.github.io/bootstrap/7.列表组.html)<br />
+[9.模态框](https://947011901.github.io/bootstrap/11.模态框.html)<br />
 ###[JQuery]<br />
 [1.动画队列](https://947011901.github.io/JQuery/1.动画队列.html)<br />
 [2.邮箱认证](https://947011901.github.io/JQuery/2.邮箱认证.html)<br />
