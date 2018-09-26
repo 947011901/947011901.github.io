@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>模态框 modal</title>
+	<link rel="stylesheet" type="text/css" href="lib/css/bootstrap.css"/>
+</head>
+<body>
+	<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">打开弹框</button>
+	<!--
+	属性  tabindex
+	-->
+	<div class="modal fade" id="myModal">
+	<!--
+		modal-lg 大尺寸
+		modal-sm 小尺寸
+		不加 就是默认大小
+		tabindex  当用键盘上面tab键切换位置的的顺序 默认是0
+	-->
+		<div class="modal-dialog modal-lg" tabindex="-1">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button class="close" data-dismiss="modal"><span>&times;</span></button>
+					登录提示
+				</div>
+				<div class="modal-body">
+					<form class="form-horizontal">
+						<div class="form-group">
+							<label class="control-label col-sm-3">产品名称</label>
+							<div class="col-sm-9">
+								<input type="text" class="form-control" />
+							</div>
+						</div>
+						<div class="form-group">
+							<label class="control-label col-sm-3">价格</label>
+							<div class="col-sm-9">
+								<input type="text" class="form-control" />
+							</div>
+						</div>
+						<div class="form-group">
+							<label class="control-label col-sm-3">品牌</label>
+							<div class="col-sm-9">
+								<input type="text" class="form-control" />
+							</div>
+						</div>
+					</form>
+				</div>
+				<div class="modal-footer">
+					<a class="btn btn-primary" href="#" id="confirm">确认</a>
+					<button class="btn btn-danger" data-dismiss="modal">取消</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript" src="lib/js/jquery.js"></script>
+	<script type="text/javascript" src="lib/js/bootstrap.js"></script>
+	<script>
+	$(function(){
+	/*	$('#myModal').modal({
+			keyboard:false
+		});*/
+		// $('#myModal').modal('show');//手动调用modal
+		$('#confirm').click(function(){
+			$('#myModal').modal('hide');//手动消失
+		});
+	});
+	</script>
+
+	<!--  远程加载  -->
+
+	<div class="modal" id="modalHtml">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				
+			</div>
+		</div>
+	</div>
+	<a id="loadhtml" href="#">加载modal的内容</a>
+	<script type="text/javascript">
+	$(function(){
+		$('#loadhtml').click(function(){
+			/*$('#modalHtml').modal({
+				keyboard:false,
+				remote:'http://baidu.com/index.html'
+			});*/
+
+		});
+	});
+	</script>
+	<!--调用modal 方法-->
+	<div class="modal fade" id="popModal">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+				<button class="close" data-dismiss="modal"><span>&times;</span></button>
+				标题
+				</div>
+				<div class="modal-body">neir</div>
+				<div class="modal-footer">尾部</div>
+			</div>
+		</div>
+	</div>
+	<a id="clickPop" class="btn btn-warning" href="#">弹出modal</a>
+	<script type="text/javascript">
+	$(function(){
+		$('#popModal').on('show.bs.modal',function(){
+			// alert("模态框正在显示 触发了show事件");
+			$(this).find('.modal-body').html("改变之后的内容");
+			// alert('模态框正在显示  触发了show事件');
+		});
+		$('#popModal').on('shown.bs.modal',function(){
+			alert('模态框正在显示 触发了shown事件');
+		});
+		$('#popModal').on('hide.bs.modal',function(){
+			alert('模态框正在隐藏 触发了hide');
+		});
+		$('#popModal').on('hidden.bs.modal',function(){
+			// alert('模态框正在隐藏 触发了hidden');
+			$(this).find('.modal-body').html("内容");
+		});
+		$('#clickPop').click(function(){
+			$('#popModal').modal({
+				backdrop:false
+			});
+		});
+	});
+	</script>
+
+
+</body>
+</html>
