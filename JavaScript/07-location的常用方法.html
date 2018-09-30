@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<button onclick="openNewUrl();">打开百度首页</button>
+		<button onclick="reloadCurrrent();">重写加载当前网页</button>
+		<button onclick="replaceDoc();">替换当前网页</button>
+	</body>
+	<script type="text/javascript">
+		function openNewUrl () {
+			//打开http://www.baidu.com
+			location.assign("http://www.baidu.com");
+		}
+		function reloadCurrrent () {
+			//确定是否先看缓存，如果为true，则无视缓存直接从网上加载
+			//如果为false，则先看缓存，如果存在，则从缓存中更新；如果不存在
+			//则再从网络上进行下载
+			location.reload(true);
+		}
+		function replaceDoc () {
+			//替换成http://www.baidu.com
+			location.replace("http://www.baidu.com");
+		}
+	</script>
+</html>

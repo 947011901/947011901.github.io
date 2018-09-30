@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+	</body>
+	<script type="text/javascript">
+		var date
+		//存Cookie
+		function saveCookie(name,value,expiredays){
+			date = new Date()
+			//alert(date.getDate())
+			date.setDate(date.getDate() + expiredays)
+			//alert(date.toGMTString())
+			//
+			var cookieText = encodeURIComponent(name) + "=" + 
+			encodeURIComponent(value) + ";expires=" + date.toGMTString()
+			document.cookie = cookieText
+		}
+		saveCookie("name","张三",1)  //name: 张三
+	</script>
+	<!--【注意】读取cookie仍然是通过document的cookie属性，
+	不过字符串需要我们自己解析-->
+	<script type="text/javascript">
+		//获取Cookie
+		function getCookie(name){
+			//先获取到cookie字符串
+			var cookieText = document.cookie
+			//获取要查找的cookie的name所在的下标
+			var index = cookieText.indexOf(name + "=")
+			//如果下标不为-1，证明找到了
+			if(index != -1){
+				//查找指定的cookie的结束位置
+				var endIndex = cookieText.indexOf(";",index)
+				//如果等于-1，说明没找到，则把末尾位置设置为字符串的末尾
+				endIndex = (endIndex == -1 ? cookieText.length : endIndex);
+				//把想要的cookie的value截取出来
+				var value = cookieText.substring(index + (name + "=").length,endIndex)
+				//因为存储的时候使用了uri编码，所以我们查到的内容需要【解码】
+				return decodeURIComponent(value)
+			}
+		}
+		//测试
+		var value = getCookie("name")
+		if(value){
+			alert("欢迎你:" + value)
+		}
+		//=========================
+		//删除cookie
+		//删除cookie的原理非常简单：只要把超时时间设置为0即可，就会立即删除
+		saveCookie("name2","李四",date.getDate() + 1)
+		//设置的时间太小，相当于删除
+		saveCookie("name2","",0)
+		//测试
+		var value_2 = getCookie("name2")
+		if(value_2){
+			alert("欢迎你:" + value_2)
+		}else{
+			alert("Cookie中没有这条信息")
+		}
+	</script>
+</html>

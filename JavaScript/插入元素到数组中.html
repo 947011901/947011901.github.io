@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<input type="text" id="numInput"/>
+		<button id="btn">插入元素到数组中</button>
+	</body>
+	<script type="text/javascript">
+		var arr = [99,85,82,63,60]
+		console.log("插入前：" + arr)
+		
+		btn.onclick = function(){
+			var numInputValue = parseInt(numInput.Value)
+			console.log(typeof numInputValue)
+			for(var i = 0,len = arr.length;i < len;i++){
+				if(arr[i] < numInputValue){
+					arr.splice(i,0,numInputValue)
+					break
+				}
+				if(i == arr.length - 1){
+					arr.push(numInputValue)
+				}
+			}
+			numInput.Value = ''
+			console.log("插入后：" + arr)
+		}
+	</script>
+</html>

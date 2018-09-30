@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			body{
+				height: 4000px;
+				background-color: yellowgreen;
+			}
+		</style>
+	</head>
+	<body>
+	</body>
+	<script type="text/javascript">
+		//监听window的滚动事件
+		window.onscroll = function(){
+			console.log("开始滚动了！！！")
+			//【document.body.scrollTop】Chrome不支持
+			//【document.documentElement.scrollTop】火狐和IE不支持
+			//console.log(document.documentElement.scrollTop | document.body.scrollTop)
+			//console.log(document.documentElement.scrollTop)
+			console.log(document.body.scrollTop)
+		}
+	</script>
+</html>

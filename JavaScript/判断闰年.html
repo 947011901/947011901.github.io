@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		请输入一个年份: <input type="text" id="inputYear"/>
+		<input type="submit" id="submit" value="判断"/>
+	</body>
+	<script type="text/javascript">
+		submit.onclick = function(){
+			var year = parseInt(inputYear.value)
+			//函数的调用
+			isLeapYear(year)
+		}
+		
+		//判断是否是闰年
+		function isLeapYear(year){
+			if((year % 4 == 0 && year % 100 != 0) || year % 400 == 0){
+				alert(year + "年是闰年")
+				inputYear.value = ''
+			}else{
+				alert(year + "年是平年")
+				inputYear.value = ''
+			}
+		}
+	</script>
+</html>

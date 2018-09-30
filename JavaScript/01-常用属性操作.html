@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			div{
+				width: 200px;
+				height: 100px;
+			}
+			.box1{
+				background-color: green;
+			}
+			.box2{
+				background-color: red;
+			}
+			.size{
+				width: 400px;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="box" class="box1"></div>
+		<button>一键换肤</button>
+		<p id="p1">
+			<a href="http://www.baidu.com">点我进入百度网页</a>
+		</p>
+		<p>
+			<button onclick="getHTML()">点我获取内部HTML</button>
+		</p>
+		<p><button onclick="setHTML()">点击改变HTML</button></p>
+		
+		<input type="text" id="input1" value="aaaaaabbbbb"/><br />
+		<input type="checkbox" id="input2"/>
+	</body>
+	<script type="text/javascript">
+		var box = document.getElementsByTagName("div")[0]
+		//console.log(box.tagName) //直接获取标签的标签名-----> DIV
+		//=========================
+		var p1 = document.getElementById("p1")
+		/*function getHTML(){
+			alert(p1.innerHTML)
+		}
+		//设置HTML
+		function setHTML(){
+			p1.innerHTML = "<a href='https://www.google.com'>点我进入谷歌主页</a>"
+		}*/
+		//=========================
+		/*function getHTML(){
+			alert(p1.innerText)
+		}
+		//设置HTML
+		function setHTML(){
+			p1.innerText = "<a href='https://www.google.com'>点我进入谷歌主页</a>"
+		}*/
+		//==========================
+		//【扩展】textContent和innerText相同
+		function getHTML(){
+			alert(p1.textContent)
+		}
+		//设置HTML
+		function setHTML(){
+			p1.textContent = "<a href='https://www.google.com'>点我进入谷歌主页</a>"
+		}
+		//==========================
+		// id属性
+		//console.log(box.id)
+		
+		var att = "id"
+		console.log(box[att]) //box    中括号语法支持变量
+		console.log(box.att) //undefined
+		//==========================
+		document.querySelector("button").onclick = function(){
+			//if(box.className == "box1"){
+			if("box1" == box.className){
+				//如果box的className是box1，则将它换成box2
+				box.className = "box2"
+			}else{
+				//否则如果是box2，则还原成box1
+				box.className = "box1"
+			}
+			box.className += " size";
+			//box.className = box.className + " size"
+		}
+		//=========================
+		/**
+		 * 
+		 */
+		console.log(input1.value) 
+		console.log(input2.checked) //false
+		input2.onchange = function(){
+			console.log(input2.checked)
+		}
+	</script>
+</html>

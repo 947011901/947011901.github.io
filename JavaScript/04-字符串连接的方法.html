@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+	</body>
+	<script type="text/javascript">
+		//s.concat(stringX,stringX,...,stringX) 方法用于连接两个或多个字符串。
+		var s = "你好你好'😡'你好你好";
+		alert(s.concat("啊", "志玲")); // 弹出： 你好啊志玲
+		//【注意】如果连接的是一个长度为0的字符串，则会返回这个字符串本身  
+		alert(s.concat("") === s);  // 弹出： true
+	</script>
+</html>

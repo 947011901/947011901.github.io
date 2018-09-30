@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<!--内部样式-->
+		<style type="text/css">
+			div{
+				width: 300px;
+				height: 200px;
+				background-color: pink;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="box" style="font-size: 30px;">哈哈哈哈</div>
+		<br />
+		<button>更改div的背景色</button>
+		<button>获取内部或外部样式</button>
+	</body>
+	<script type="text/javascript">
+		//更改和获取【行内样式】
+		var box = document.getElementById("box")
+		//console.log(box.style.width)
+		//连接的css属性，都应该改成【驼峰命名法】
+		//【注意】如下的访问方式不能拿到【内部样式和外部样式】
+		//如下方式只能拿到行内样式
+		//console.log(box.style.backgroundColor)
+		//console.log(box.style["width"])
+		//console.log(box.style["background-color"])
+		console.log(box.style.fontSize)
+		console.log(box.style["font-size"])
+		//=========================
+		document.getElementsByTagName("button")[0].onclick = function(){
+			//但是可以设置(行内样式)
+			box.style.backgroundColor = "rgb(255,255,0)" //红+绿=黄
+		}
+		document.getElementsByTagName("button")[1].onclick = function(){
+			console.log(getStyleValue(box,"backgroundColor"))
+		}
+		
+		/**
+		 * 可以兼容【所有的浏览器】来【获取外部和内部样式】的处理方法
+		 * @param {Object} ele  表示某元素，如box
+		 * @param {Object} prop 表示某属性的字符串，如：width或者backgroundColor
+		 */
+		function getStyleValue(ele,prop){
+			if(ele.currentStyle){
+				//获取行内样式
+				return ele.currentStyle[prop]
+			}else{
+				//获取内部或者外部样式
+				return window.getComputedStyle(ele,null)[prop]
+			}
+		}
+	</script>
+</html>
