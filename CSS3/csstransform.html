@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<div class="stage">
+			<div class="box">box1</div>
+		</div>
+		<div class="stage">
+			<div class="box">box2</div>
+		</div>
+		<style type="text/css">
+			.stage {
+				margin: 10px;
+				perspective: 150;
+				border: 1px solid rgb(63,63,126);
+				-webkit-perspective: 150;
+			}
+			.box {
+				width: 100px;
+				height: 100px;
+				background: blue;
+				transition: all 1s;
+				/*float: left;*/
+				margin: 5px;
+				position: relative;
+				left: 0px;
+				
+				/*transform-origin: center center 0;*/
+				/*transform-origin: 100% 100px 0;*/
+			}
+			.box:hover {
+				/*transform: none;  定义不进行转换*/
+				
+				/*width: 200px;  宽度变为200px*/
+				/*transform: translate(100px); */
+				/*left: 100px; 向右移动100px*/
+				
+				/*通过 translate() 方法，元素从其当前位置移动，根据给定的 left（x 坐标） 和 top（y 坐标） 位置参数：*/
+				/*transform: translateX(100px);  定义转换，只是用X轴的值*/
+				/*transform: translateY(100px);  定义转换，只是用Y轴的值*/
+				/*transform: translate(100px,100px); 定义2D转换*/
+				
+				/*通过 scale() 方法，元素的尺寸会增加或减少，根据给定的宽度（X 轴）和高度（Y 轴）参数：*/
+				/*transform: scale(2); 整体缩放*/ 
+				/*transform: scale(2,3);  定义 2D 缩放转换。*/
+				/*transform: scaleX(2);通过设置 X 轴的值来定义缩放转换。*/
+				/*transform: scaleY(2);通过设置 Y轴的值来定义缩放转换。*/
+				
+				/*通过 rotate() 方法，元素顺时针旋转给定的角度。允许负值，元素将逆时针旋转。*/
+				/*transform: rotate(1turn);*/
+				/*transform: rotate(180deg);*/
+				/*transform: rotateX(90deg);*/
+				transform: rotateY(90deg);
+				/*transform: rotateZ(90deg);*/
+				
+				/*通过 skew() 方法，元素翻转给定的角度，根据给定的水平线（X 轴）和垂直线（Y 轴）参数：*/
+				/*skew(x-angle,y-angle)	定义沿着 X 和 Y 轴的 2D 倾斜转换。*/
+				/*transform: skew(45deg,40deg);*/
+				/*transform: skewX(45deg);*/
+				/*transform: skewY(45deg);*/
+				/*-webkit-transform: skew(45deg,40deg);*/
+				
+			}
+		</style>
+	</body>
+</html>

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+
+	<body>
+		
+		<!--3D特效-->
+		<div class="container">
+			<div class="stage">
+				<div class="tranA">黄</div>
+				<div class="tranB">橙</div>
+				<div class="tranC">红</div>
+				<div class="tranD">紫</div>
+				<div class="tranE">蓝</div>
+				<div class="tranF">绿</div>
+			</div>
+		</div>
+		<style type="text/css">
+			body {
+				margin: 100px;
+				/*background: black;*/
+			}
+			
+			.container {
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				width: 100px;
+				height: 100px;
+				-webkit-transform: translateX(-50%) translateY(-50%);
+				/*transform: translateX(-50%) translateY(-50%);*/
+				-webkit-perspective: 400px;
+				/*perspective: 400px;*/
+				}
+			
+			.stage {
+				width: 100px;
+				height: 100px;
+				text-align: center;
+				margin: auto;
+				
+				/*perspective: 300;*/
+				/*-webkit-perspective: 300;*/				
+				
+				transform-style: preserve-3d;
+				transform: rotateY(30deg) rotateX(30deg);
+				
+				-webkit-transform-origin: 50% 50%;
+				-webkit-animation: rotate 4s infinite ease-in-out;
+			}
+			
+			.stage div[class^=tran] {
+				top: 0;
+				left: 0;
+				width: 100px;
+				height: 100px;
+				position: absolute;
+				display: inline-block;
+			}
+			
+			.tranA {
+				background: yellow;
+				transform-origin: 50% 0 0;
+				transform: rotateX(90deg);
+				border-radius: 50%;
+				-webkit-transform: rotateX(90deg) translateZ(50px);
+				/*transform: rotateX(90deg) translateZ(50px);*/
+			}
+			
+			.tranB {
+				background: orange;
+				transform-origin: 0 50% 0;
+				transform: rotateY(-90deg);
+				border-radius: 50%;
+				-webkit-transform: rotateY(-90deg) translateZ(50px);
+				/*transform: rotateY(-90deg) translateZ(50px);*/
+			}
+			
+			.tranC {
+				background: red;
+				transform-origin: 100% 50% 0;
+				transform: rotateY(90deg);
+				border-radius: 50%;
+				-webkit-transform: rotateY(90deg) translateZ(50px);
+				/*transform: rotateY(90deg) translateZ(50px);*/
+			}
+			
+			.tranD {
+				background: purple;
+				transform-origin: 0 100% 0;
+				transform: rotateX(-90deg);
+				border-radius: 50%;
+				-webkit-transform: rotateX(-90deg) translateZ(50px);
+				/*transform: rotateX(-90deg) translateZ(50px);*/
+			}
+			
+			.tranE {
+				background: blue;
+				transform: translateZ(100px);
+				border-radius: 50%;
+				-webkit-transform: translateZ(150px);
+				/*transform: translateZ(150px);*/
+			}
+			
+			.tranF {
+				background: green;
+				transform: translateZ(0px);
+				border-radius: 50%;
+				-webkit-transform: rotateY(180deg) translateZ(50px);
+				/*transform: rotateY(180deg) translateZ(50px);*/
+			}
+			
+						
+			@keyframes rotate {
+				0% {
+					transform: rotateX(0deg) rotateY(0deg);
+				}
+				50% {
+					transform: rotateX(360deg) rotateY(0deg);
+				}
+				100% {
+					transform: rotateX(360deg) rotateY(360deg);
+				}
+			}
+			
+		</style>
+	</body>
+
+</html>
