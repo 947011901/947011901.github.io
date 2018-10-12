@@ -63,5 +63,8 @@
 [3.svg-loading](https://947011901.github.io/CSS3/02.svg-loading.html)<br />
 [4.3D反转](https://947011901.github.io/CSS3/01.chart.html)<br />
 [5.css-hover](https://947011901.github.io/CSS3/css-hover.html)<br />
-[6.csstransform](https://947011901.github.io/CSS3/csstransform.html)
-
+[6.csstransform](https://947011901.github.io/CSS3/csstransform.html)<br />
+###[jquery测试]<br />
+[高亮显示](https://947011901.github.io/JQuery/高亮显示.html)<br />
+[放大镜效果](https://947011901.github.io/JQuery/放大镜效果.html)<br />
+[轮播图](https://947011901.github.io/JQuery/轮播图.html)
