@@ -67,4 +67,6 @@
 ###[jquery测试]<br />
 [高亮显示](https://947011901.github.io/JQuery/高亮显示.html)<br />
 [放大镜效果](https://947011901.github.io/JQuery/放大镜效果.html)<br />
-[轮播图](https://947011901.github.io/JQuery/轮播图.html)
+[轮播图](https://947011901.github.io/JQuery/轮播图.html)<br />
+###[项目经验]<br />
+[CSS3鼠标滑过图片3D旋转动画](https://947011901.github.io/DEMO/index.html)
