@@ -18,17 +18,14 @@
 [9.模态框](https://947011901.github.io/bootstrap/11.模态框.html)<br />
 ###[JQuery]<br />
 [1.动画队列](https://947011901.github.io/JQuery/1.动画队列.html)<br />
-[2.邮箱认证](https://947011901.github.io/JQuery/2.邮箱认证.html)<br />
 [3.基础选择器](https://947011901.github.io/JQuery/3-基础选择器.html)<br />
 [4.奇偶选择器](https://947011901.github.io/JQuery/4.奇数偶数选择器.html)<br />
 [5.其他选择器](https://947011901.github.io/JQuery/4-其他选择器.html)<br />
 [6.兄弟选择器](https://947011901.github.io/JQuery/6.jquery兄弟选择器.html)<br />
 [7.jquery class属性](https://947011901.github.io/JQuery/5.class属性.html)<br />
-[8.jquery获取元素的位置](https://947011901.github.io/JQuery/6-jquery获取元素的位置.html)<br />
 [9.jquery滚动条](https://947011901.github.io/JQuery/7-jquery滚动条.html)<br />
 [10.放大镜效果](https://947011901.github.io/JQuery/8.放大镜效果.html)<br />
 [11.轮播图](https://947011901.github.io/JQuery/9.轮播图.html)<br />
-[12.作业1](https://947011901.github.io/JQuery/作业demo.html)<br />
 [13.jquery fade动画](https://947011901.github.io/JQuery/8.fade动画.html)<br />
 [14.垃圾桶效果](https://947011901.github.io/JQuery/垃圾桶效果.html)<br />
 [15.柱状图](https://947011901.github.io/JQuery/1.柱状图.html)<br />
@@ -42,9 +39,5 @@
 [4.3D反转](https://947011901.github.io/CSS3/01.chart.html)<br />
 [5.css-hover](https://947011901.github.io/CSS3/css-hover.html)<br />
 [6.csstransform](https://947011901.github.io/CSS3/csstransform.html)<br />
-###[jquery测试]<br />
-[高亮显示](https://947011901.github.io/JQuery/高亮显示.html)<br />
-[放大镜效果](https://947011901.github.io/JQuery/放大镜效果.html)<br />
-[轮播图](https://947011901.github.io/JQuery/轮播图.html)<br />
 ###[项目经验]<br />
 [CSS3鼠标滑过图片3D旋转动画](https://947011901.github.io/DEMO/index.html)
