@@ -39,4 +39,4 @@
 [▶3D反转](https://947011901.github.io/CSS3/01.chart.html)<br />
 [▶css-hover](https://947011901.github.io/CSS3/css-hover.html)<br />
 [▶csstransform](https://947011901.github.io/CSS3/csstransform.html)<br />
-[▶CSS3鼠标滑过图片3D旋转动画](https://947011901.github.io/DEMO/index.html)
+[▶CSS3鼠标滑过图片3D旋转动画](https://947011901.github.io/index.html)
