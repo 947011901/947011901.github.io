@@ -10,12 +10,10 @@
 [▶可原路返回的小球](https://947011901.github.io/JavaScript/08-随手指移动的小球-可以原路返回.html)<br />
 ###[bootstrap]<br />
 [1.表格](https://947011901.github.io/bootstrap/3.表格.html)<br />
-[2.表单](https://947011901.github.io/bootstrap/4.表单.html)<br />
 [3.响应式导航条](https://947011901.github.io/bootstrap/3.响应式导航.html)<br />
 [4.栅格式布局](https://947011901.github.io/bootstrap/1.栅格式布局.html)<br />
 [5.组件](https://947011901.github.io/bootstrap/7.组件.html)<br />
 [6.导航](https://947011901.github.io/bootstrap/8.导航.html)<br />
-[7.分页](https://947011901.github.io/bootstrap/5.分页.html)<br />
 [8.列表组](https://947011901.github.io/bootstrap/7.列表组.html)<br />
 [9.模态框](https://947011901.github.io/bootstrap/11.模态框.html)<br />
 ###[JQuery]<br />
