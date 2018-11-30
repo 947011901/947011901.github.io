@@ -9,35 +9,34 @@
 [▶最世界之轮播图效果](https://947011901.github.io/JavaScript/04-最世界之轮播图效果/zuiWorld.html)<br />
 [▶可原路返回的小球](https://947011901.github.io/JavaScript/08-随手指移动的小球-可以原路返回.html)<br />
 ###[bootstrap]<br />
-[1.表格](https://947011901.github.io/bootstrap/3.表格.html)<br />
-[3.响应式导航条](https://947011901.github.io/bootstrap/3.响应式导航.html)<br />
-[4.栅格式布局](https://947011901.github.io/bootstrap/1.栅格式布局.html)<br />
-[5.组件](https://947011901.github.io/bootstrap/7.组件.html)<br />
-[6.导航](https://947011901.github.io/bootstrap/8.导航.html)<br />
-[8.列表组](https://947011901.github.io/bootstrap/7.列表组.html)<br />
-[9.模态框](https://947011901.github.io/bootstrap/11.模态框.html)<br />
+[▶表格](https://947011901.github.io/bootstrap/3.表格.html)<br />
+[▶响应式导航条](https://947011901.github.io/bootstrap/3.响应式导航.html)<br />
+[▶栅格式布局](https://947011901.github.io/bootstrap/1.栅格式布局.html)<br />
+[▶组件](https://947011901.github.io/bootstrap/7.组件.html)<br />
+[▶导航](https://947011901.github.io/bootstrap/8.导航.html)<br />
+[▶列表组](https://947011901.github.io/bootstrap/7.列表组.html)<br />
+[▶模态框](https://947011901.github.io/bootstrap/11.模态框.html)<br />
 ###[JQuery]<br />
-[1.动画队列](https://947011901.github.io/JQuery/1.动画队列.html)<br />
-[3.基础选择器](https://947011901.github.io/JQuery/3-基础选择器.html)<br />
-[4.奇偶选择器](https://947011901.github.io/JQuery/4.奇数偶数选择器.html)<br />
-[5.其他选择器](https://947011901.github.io/JQuery/4-其他选择器.html)<br />
-[6.兄弟选择器](https://947011901.github.io/JQuery/6.jquery兄弟选择器.html)<br />
-[7.jquery class属性](https://947011901.github.io/JQuery/5.class属性.html)<br />
-[9.jquery滚动条](https://947011901.github.io/JQuery/7-jquery滚动条.html)<br />
-[10.放大镜效果](https://947011901.github.io/JQuery/8.放大镜效果.html)<br />
-[11.轮播图](https://947011901.github.io/JQuery/9.轮播图.html)<br />
-[13.jquery fade动画](https://947011901.github.io/JQuery/8.fade动画.html)<br />
-[14.垃圾桶效果](https://947011901.github.io/JQuery/垃圾桶效果.html)<br />
-[15.柱状图](https://947011901.github.io/JQuery/1.柱状图.html)<br />
-[16.手风琴折叠效果](https://947011901.github.io/JQuery/4.手风琴折叠效果.html)<br />
-[17.图片切换](https://947011901.github.io/JQuery/5.图片切换.html)<br />
-[18.打印表格](https://947011901.github.io/JQuery/2.jquery打印表格.html)<br />
+[▶动画队列](https://947011901.github.io/JQuery/1.动画队列.html)<br />
+[▶基础选择器](https://947011901.github.io/JQuery/3-基础选择器.html)<br />
+[▶奇偶选择器](https://947011901.github.io/JQuery/4.奇数偶数选择器.html)<br />
+[▶其他选择器](https://947011901.github.io/JQuery/4-其他选择器.html)<br />
+[▶兄弟选择器](https://947011901.github.io/JQuery/6.jquery兄弟选择器.html)<br />
+[▶jquery class属性](https://947011901.github.io/JQuery/5.class属性.html)<br />
+[▶jquery滚动条](https://947011901.github.io/JQuery/7-jquery滚动条.html)<br />
+[▶放大镜效果](https://947011901.github.io/JQuery/8.放大镜效果.html)<br />
+[▶轮播图](https://947011901.github.io/JQuery/9.轮播图.html)<br />
+[▶jquery fade动画](https://947011901.github.io/JQuery/8.fade动画.html)<br />
+[▶垃圾桶效果](https://947011901.github.io/JQuery/垃圾桶效果.html)<br />
+[▶柱状图](https://947011901.github.io/JQuery/1.柱状图.html)<br />
+[▶手风琴折叠效果](https://947011901.github.io/JQuery/4.手风琴折叠效果.html)<br />
+[▶图片切换](https://947011901.github.io/JQuery/5.图片切换.html)<br />
+[▶打印表格](https://947011901.github.io/JQuery/2.jquery打印表格.html)<br />
 ###[CSS3]<br />
-[1.开关切换](https://947011901.github.io/CSS3/CSS 开关样式.html)<br />
-[2.单选多选按钮](https://947011901.github.io/CSS3/CSS3-pretty-radio-checkbox.html)<br />
-[3.svg-loading](https://947011901.github.io/CSS3/02.svg-loading.html)<br />
-[4.3D反转](https://947011901.github.io/CSS3/01.chart.html)<br />
-[5.css-hover](https://947011901.github.io/CSS3/css-hover.html)<br />
-[6.csstransform](https://947011901.github.io/CSS3/csstransform.html)<br />
-###[项目经验]<br />
-[CSS3鼠标滑过图片3D旋转动画](https://947011901.github.io/DEMO/index.html)
+[▶开关切换](https://947011901.github.io/CSS3/CSS 开关样式.html)<br />
+[▶单选多选按钮](https://947011901.github.io/CSS3/CSS3-pretty-radio-checkbox.html)<br />
+[▶svg-loading](https://947011901.github.io/CSS3/02.svg-loading.html)<br />
+[▶3D反转](https://947011901.github.io/CSS3/01.chart.html)<br />
+[▶css-hover](https://947011901.github.io/CSS3/css-hover.html)<br />
+[▶csstransform](https://947011901.github.io/CSS3/csstransform.html)<br />
+[▶CSS3鼠标滑过图片3D旋转动画](https://947011901.github.io/DEMO/index.html)
