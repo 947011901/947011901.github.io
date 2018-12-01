@@ -1,133 +1,134 @@
+
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
-	<head>
-		<meta charset="UTF-8">
-		<title></title>
-	</head>
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
 
-	<body>
-		
-		<!--3D特效-->
-		<div class="container">
-			<div class="stage">
-				<div class="tranA">黄</div>
-				<div class="tranB">橙</div>
-				<div class="tranC">红</div>
-				<div class="tranD">紫</div>
-				<div class="tranE">蓝</div>
-				<div class="tranF">绿</div>
-			</div>
-		</div>
-		<style type="text/css">
-			body {
-				margin: 100px;
-				/*background: black;*/
-			}
-			
-			.container {
-				position: absolute;
-				top: 50%;
-				left: 50%;
-				width: 100px;
-				height: 100px;
-				-webkit-transform: translateX(-50%) translateY(-50%);
-				/*transform: translateX(-50%) translateY(-50%);*/
-				-webkit-perspective: 400px;
-				/*perspective: 400px;*/
-				}
-			
-			.stage {
-				width: 100px;
-				height: 100px;
-				text-align: center;
-				margin: auto;
-				
-				/*perspective: 300;*/
-				/*-webkit-perspective: 300;*/				
-				
-				transform-style: preserve-3d;
-				transform: rotateY(30deg) rotateX(30deg);
-				
-				-webkit-transform-origin: 50% 50%;
-				-webkit-animation: rotate 4s infinite ease-in-out;
-			}
-			
-			.stage div[class^=tran] {
-				top: 0;
-				left: 0;
-				width: 100px;
-				height: 100px;
-				position: absolute;
-				display: inline-block;
-			}
-			
-			.tranA {
-				background: yellow;
-				transform-origin: 50% 0 0;
-				transform: rotateX(90deg);
-				border-radius: 50%;
-				-webkit-transform: rotateX(90deg) translateZ(50px);
-				/*transform: rotateX(90deg) translateZ(50px);*/
-			}
-			
-			.tranB {
-				background: orange;
-				transform-origin: 0 50% 0;
-				transform: rotateY(-90deg);
-				border-radius: 50%;
-				-webkit-transform: rotateY(-90deg) translateZ(50px);
-				/*transform: rotateY(-90deg) translateZ(50px);*/
-			}
-			
-			.tranC {
-				background: red;
-				transform-origin: 100% 50% 0;
-				transform: rotateY(90deg);
-				border-radius: 50%;
-				-webkit-transform: rotateY(90deg) translateZ(50px);
-				/*transform: rotateY(90deg) translateZ(50px);*/
-			}
-			
-			.tranD {
-				background: purple;
-				transform-origin: 0 100% 0;
-				transform: rotateX(-90deg);
-				border-radius: 50%;
-				-webkit-transform: rotateX(-90deg) translateZ(50px);
-				/*transform: rotateX(-90deg) translateZ(50px);*/
-			}
-			
-			.tranE {
-				background: blue;
-				transform: translateZ(100px);
-				border-radius: 50%;
-				-webkit-transform: translateZ(150px);
-				/*transform: translateZ(150px);*/
-			}
-			
-			.tranF {
-				background: green;
-				transform: translateZ(0px);
-				border-radius: 50%;
-				-webkit-transform: rotateY(180deg) translateZ(50px);
-				/*transform: rotateY(180deg) translateZ(50px);*/
-			}
-			
-						
-			@keyframes rotate {
-				0% {
-					transform: rotateX(0deg) rotateY(0deg);
-				}
-				50% {
-					transform: rotateX(360deg) rotateY(0deg);
-				}
-				100% {
-					transform: rotateX(360deg) rotateY(360deg);
-				}
-			}
-			
-		</style>
-	</body>
+    <style>
+        body {
+            background: gray;
+        }
+
+        .container {
+            position: absolute;
+            /* text-align: center; */
+            height: 100px;
+            width: 100px;
+            left: 33%;
+            top: 40%;
+            perspective: 400px;
+
+            /* transform: translateX(-50%) translateY(-50%); */
+        }
+
+        .cube {
+            height: 100px;
+            width: 100px;
+            transform-origin: 50% 50%;
+            transform-style: preserve-3d;
+
+            animation: rotate 4s infinite ease-in-out;
+        }
+
+        .side {
+            position: absolute;
+            display: block;
+            height: 100px;
+            width: 100px;
+            text-align: center;
+            line-height: 100px;
+        }
+
+        .side1 {
+            background: #41C3AC;
+            transform: translateZ(100px);
+        }
+
+        .side2 {
+            background: #FF884D;
+            transform: rotateY(90deg) translateZ(100px);
+        }
+
+        .side3 {
+            background: #32526E;
+            transform: rotateY(180deg) translateZ(100px);
+        }
+
+        .side4 {
+            background: #65A2C5;
+            transform: rotateY(-90deg) translateZ(100px);
+        }
+
+        .side5 {
+            background: #FFCC5C;
+            transform: rotateX(90deg) translateZ(100px);
+        }
+
+        .side6 {
+            background: #FF6B57;
+            transform: rotateX(-90deg) translateZ(100px);
+        }
+
+        @keyframes rotate {
+            0% {
+                transform: rotateX(0deg) rotateY(0deg);
+            }
+
+            50% {
+                transform: rotateX(360deg) rotateY(0deg);
+            }
+
+            100% {
+                transform: rotateX(360deg) rotateY(360deg);
+            }
+        }
+
+        .container2 {
+            left: 60%;
+        }
+
+        .container2 .side {
+            border-radius: 50%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="cube">
+            <div class="side side1">1
+            </div>
+            <div class="side side2">4
+            </div>
+            <div class="side side3">3
+            </div>
+            <div class="side side4">2
+            </div>
+            <div class="side side5">6
+            </div>
+            <div class="side side6">5
+            </div>
+        </div>
+    </div>
+
+    <div class="container container2">
+        <div class="cube">
+            <div class="side side1">1
+            </div>
+            <div class="side side2">4
+            </div>
+            <div class="side side3">3
+            </div>
+            <div class="side side4">2
+            </div>
+            <div class="side side5">6
+            </div>
+            <div class="side side6">5
+            </div>
+        </div>
+    </div>
+</body>
 
 </html>
