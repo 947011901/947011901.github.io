@@ -34,12 +34,12 @@
 [▶手风琴折叠效果](https://947011901.github.io/JQuery/4.手风琴折叠效果.html)<br />
 [▶图片切换](https://947011901.github.io/JQuery/5.图片切换.html)<br />
 [▶打印表格](https://947011901.github.io/JQuery/2.jquery打印表格.html)<br />
-&CSS3&<br />
-[▶开关切换](https://947011901.github.io/CSS3/CSS 开关样式.html)<br />
-[▶单选多选按钮](https://947011901.github.io/CSS3/CSS3-pretty-radio-checkbox.html)<br />
-[▶svg-loading](https://947011901.github.io/CSS3/02.svg-loading.html)<br />
-[▶3D反转](https://947011901.github.io/CSS3/01.chart.html)<br />
-[▶css-hover](https://947011901.github.io/CSS3/css-hover.html)<br />
-[▶csstransform](https://947011901.github.io/CSS3/csstransform.html)<br />
-[▶CSS3鼠标滑过图片3D旋转动画](https://947011901.github.io/CSS3/index.html)<br />
+&HTML+CSS&<br />
+[▶开关切换](https://947011901.github.io/HTML+CSS/CSS 开关样式.html)<br />
+[▶单选多选按钮](https://947011901.github.io/HTML+CSS/CSS3-pretty-radio-checkbox.html)<br />
+[▶svg-loading](https://947011901.github.io/HTML+CSS/02.svg-loading.html)<br />
+[▶3D反转](https://947011901.github.io/HTML+CSS/01.chart.html)<br />
+[▶css-hover](https://947011901.github.io/HTML+CSS/css-hover.html)<br />
+[▶csstransform](https://947011901.github.io/HTML+CSS/csstransform.html)<br />
+[▶CSS3鼠标滑过图片3D旋转动画](https://947011901.github.io/HTML+CSS/index.html)<br />
 
