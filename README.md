@@ -1,7 +1,6 @@
 &展示项目&<br />
 [▶机械化农业网站](https://947011901.github.io/HTML+CSS/cultivation/index.html)<br />
 [▶仿3D视角拖拽](https://947011901.github.io/HTML+CSS/仿3d视角拖拽/index.html)<br />
-[▶360度无死角动画](https://947011901.github.io/HTML+CSS/仿3d视角拖拽/index.html)<br />
 &JavaScript&<br />
 [▶年历效果](https://947011901.github.io/JavaScript/05-万年历效果.html)<br />
 [▶打地鼠](https://947011901.github.io/JavaScript/打地鼠.html)<br />
